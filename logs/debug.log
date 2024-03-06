@@ -1,0 +1,1186 @@
+[22:46:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:46:37] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[22:46:37] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[22:46:37] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_341, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_341
+[22:46:37] [main/DEBUG] [FML]: Java classpath at launch is:
+[22:46:37] [main/DEBUG] [FML]:     forge-1.12.2-14.23.5.2860.jar
+[22:46:37] [main/DEBUG] [FML]: Java library path at launch is:
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Java\jre1.8.0_341\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\Sun\Java\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\system32
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Java\jre1.8.0_341\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Oculus\Support\oculus-runtime
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Common Files\Oracle\Java\javapath
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\ImageMagick-7.1.0-Q16-HDRI
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\VMware\VMware Player\bin\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[22:46:37] [main/DEBUG] [FML]:     C:\Python310\Scripts\
+[22:46:37] [main/DEBUG] [FML]:     C:\Python310\
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\system32
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\System32\Wbem
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\System32\WindowsPowerShell\v1.0\
+[22:46:37] [main/DEBUG] [FML]:     C:\Windows\System32\OpenSSH\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[22:46:37] [main/DEBUG] [FML]:     C:\ProgramData\chocolatey\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\MATLAB\R2023b\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\MATLAB\R2022b\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\150\DTS\Binn\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files (x86)\ZeroTier\One\
+[22:46:37] [main/DEBUG] [FML]:     C:\Program Files\nodejs\
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\.cargo\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\AppData\Local\Microsoft\WindowsApps
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\AppData\Local\Programs\Microsoft VS Code\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\.dotnet\tools
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\AppData\Local\GitHubDesktop\bin
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\AppData\Roaming\npm
+[22:46:37] [main/DEBUG] [FML]:     C:\Users\alex\AppData\Local\Microsoft\WinGet\Packages\sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe\hyperfine-v1.18.0-x86_64-pc-windows-msvc
+[22:46:37] [main/DEBUG] [FML]:     
+[22:46:37] [main/DEBUG] [FML]:     .
+[22:46:37] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\0myGames\Minecraft\ParasiteServer\libraries
+[22:46:37] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[22:46:37] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[22:46:37] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[22:46:37] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[22:46:37] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:46:37] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[22:46:37] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[22:46:37] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[22:46:37] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[22:46:37] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:46:37] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[22:46:37] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[22:46:37] [main/DEBUG] [FML]: Discovering coremods
+[22:46:37] [main/INFO] [FML]: Searching C:\0myGames\Minecraft\ParasiteServer\.\mods for mods
+[22:46:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:46:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:46:37] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[22:46:37] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[22:46:38] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:46:38] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[22:46:38] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[22:46:38] [main/DEBUG] [FML]: Injection complete
+[22:46:38] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[22:46:38] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[22:46:38] [main/DEBUG] [FML]: Read 1154 binary patches
+[22:46:38] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[22:46:38] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:46:38] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[22:46:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:46:38] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[22:46:38] [main/DEBUG] [FML]: Injection complete
+[22:46:38] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[22:46:38] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[22:46:38] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[22:46:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:46:38] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[22:46:38] [main/DEBUG] [FML]: Validating minecraft
+[22:46:39] [main/DEBUG] [FML]: Minecraft validated, launching...
+[22:46:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:46:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:46:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:46:40] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[22:46:40] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:46:42] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[22:46:42] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:46:42] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:46:42] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:46:42] [Server thread/DEBUG] [FML]: No config directory found, creating one: C:\0myGames\Minecraft\ParasiteServer\config
+[22:46:42] [Server thread/INFO] [FML]: Config directory created successfully
+[22:46:42] [Server thread/DEBUG] [FML]: File C:\0myGames\Minecraft\ParasiteServer\config\injectedDependencies.json not found. No dependencies injected
+[22:46:42] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[22:46:42] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[22:46:42] [Server thread/DEBUG] [FML]: Minecraft is a file at C:\0myGames\Minecraft\ParasiteServer\forge-1.12.2-14.23.5.2860.jar, loading
+[22:46:42] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[22:46:42] [Server thread/INFO] [FML]: Searching C:\0myGames\Minecraft\ParasiteServer\.\mods for mods
+[22:46:42] [Server thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860.jar for potential mods
+[22:46:42] [Server thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860.jar appears to be missing an mcmod.info file
+[22:46:42] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[22:46:42] [Server thread/TRACE] [FML]: Received a system property request ''
+[22:46:42] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[22:46:42] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[22:46:42] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:46:42] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[22:46:42] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[22:46:42] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
+[22:46:42] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[22:46:42] [Server thread/DEBUG] [FML]: Mod sorting data
+[22:46:42] [Server thread/DEBUG] [FML]: No user mods found to sort
+[22:46:42] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.003s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[22:46:42] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[22:46:42] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[22:46:42] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[22:46:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[22:46:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.171s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[22:46:42] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[22:46:42] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[22:46:42] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[22:46:42] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[22:46:42] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[22:46:42] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
+[22:46:42] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.020s
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 0.195s
+[22:46:42] [Server thread/DEBUG] [FML]: Mod signature data
+[22:46:42] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[22:46:42] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860.jar
+[22:46:42] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860.jar
+[22:46:42] [Server thread/DEBUG] [FML]:  	Missing Signatures:
+[22:46:42] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[22:46:42] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[22:46:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:46:42] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[22:46:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:46:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[22:46:42] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[22:46:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:46:42] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.037s
+[22:46:42] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.038s
+[22:46:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:46:42] [Server thread/INFO] [FML]: Applying holder lookups
+[22:46:42] [Server thread/INFO] [FML]: Holder lookups applied
+[22:46:42] [Server thread/INFO] [FML]: Applying holder lookups
+[22:46:42] [Server thread/INFO] [FML]: Holder lookups applied
+[22:46:42] [Server thread/INFO] [FML]: Applying holder lookups
+[22:46:42] [Server thread/INFO] [FML]: Holder lookups applied
+[22:46:42] [Server thread/INFO] [FML]: Applying holder lookups
+[22:46:42] [Server thread/INFO] [FML]: Holder lookups applied
+[22:46:42] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:46:42] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:46:42] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[22:46:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:46:42] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[22:46:43] [Server thread/INFO] [FML]: Applying holder lookups
+[22:46:43] [Server thread/INFO] [FML]: Holder lookups applied
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: Initialization took 0.001s
+[22:46:43] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.003s
+[22:46:43] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[22:46:43] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[22:46:43] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.003s
+[22:46:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:46:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[22:46:43] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.17",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.3.0",
+    "1.19.2-latest": "43.3.8",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.2.0",
+    "1.19.4-latest": "45.2.8",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.2.0",
+    "1.20.1-latest": "47.2.20",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.0.31"
+  }
+}
+[22:46:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.011s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.012s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[22:46:43] [Server thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[22:46:43] [Server thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[22:46:43] [Server thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[22:46:43] [Server thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[22:46:43] [Server thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[22:46:43] [Server thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[22:46:43] [Server thread/DEBUG] [FML]: Sorting recipes
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.006s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.007s
+[22:46:43] [Server thread/DEBUG] [FML]: Freezing registries
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.016s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.017s
+[22:46:43] [Server thread/DEBUG] [FML]: All registries frozen
+[22:46:43] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[22:46:43] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge
+[22:46:43] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[22:46:43] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.001s
+[22:46:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:46:43] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5b791aa)
+[22:46:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[22:46:44] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5b791aa)
+[22:46:44] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5b791aa)
+[22:46:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:46:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[22:46:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 39%
+[22:46:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%
+[22:46:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%
+[22:46:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.813s)! For help, type "help" or "?"
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.017s
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.018s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[22:46:48] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
+[22:46:48] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[22:46:48] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.001s
+[22:46:48] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[22:46:48] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
+[22:46:48] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:46:48] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:47:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:47:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: first encounter (5 occurrences).
+
+[22:47:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: first encounter (5 occurrences).
+
+[22:48:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:48:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 10 times.
+
+[22:48:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 10 times.
+
+[22:49:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:49:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 15 times.
+
+[22:49:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 15 times.
+
+[22:49:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:50:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 20 times.
+
+[22:50:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 20 times.
+
+[22:50:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:50:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 25 times.
+
+[22:50:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 25 times.
+
+[22:51:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:51:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 30 times.
+
+[22:51:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 30 times.
+
+[22:52:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:52:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 35 times.
+
+[22:52:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 35 times.
+
+[22:52:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:53:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 40 times.
+
+[22:53:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 40 times.
+
+[22:53:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:54:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 45 times.
+
+[22:54:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 45 times.
+
+[22:54:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:55:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:55:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 50 times.
+
+[22:55:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 50 times.
+
+[22:55:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:55:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 55 times.
+
+[22:55:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 55 times.
+
+[22:56:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:56:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 60 times.
+
+[22:56:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 60 times.
+
+[22:57:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:57:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 65 times.
+
+[22:57:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 65 times.
+
+[22:58:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:58:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 70 times.
+
+[22:58:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 70 times.
+
+[22:58:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:59:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 75 times.
+
+[22:59:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 75 times.
+
+[22:59:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:00:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 80 times.
+
+[23:00:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 80 times.
+
+[23:00:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:00:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 85 times.
+
+[23:00:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 85 times.
+
+[23:01:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:01:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 90 times.
+
+[23:01:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 90 times.
+
+[23:01:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:02:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:02:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 95 times.
+
+[23:02:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 95 times.
+
+[23:03:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:03:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 100 times.
+
+[23:03:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 100 times.
+
+[23:04:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:04:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 105 times.
+
+[23:04:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 105 times.
+
+[23:04:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:05:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 110 times.
+
+[23:05:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 110 times.
+
+[23:05:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:05:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 115 times.
+
+[23:05:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 115 times.
+
+[23:06:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:06:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 120 times.
+
+[23:06:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 120 times.
+
+[23:07:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:07:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 125 times.
+
+[23:07:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 125 times.
+
+[23:07:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:08:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 130 times.
+
+[23:08:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 130 times.
+
+[23:08:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:09:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 135 times.
+
+[23:09:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 135 times.
+
+[23:09:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:10:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:10:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 140 times.
+
+[23:10:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 140 times.
+
+[23:10:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:10:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 145 times.
+
+[23:10:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 145 times.
+
+[23:11:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:11:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 150 times.
+
+[23:11:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 150 times.
+
+[23:12:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:12:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 155 times.
+
+[23:12:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 155 times.
+
+[23:13:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:13:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 160 times.
+
+[23:13:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 160 times.
+
+[23:13:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:14:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 165 times.
+
+[23:14:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 165 times.
+
+[23:14:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:15:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 170 times.
+
+[23:15:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 170 times.
+
+[23:15:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:15:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 175 times.
+
+[23:15:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 175 times.
+
+[23:16:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:16:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 180 times.
+
+[23:16:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 180 times.
+
+[23:16:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:17:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:17:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 185 times.
+
+[23:17:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 185 times.
+
+[23:18:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:18:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 190 times.
+
+[23:18:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 190 times.
+
+[23:19:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:19:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 195 times.
+
+[23:19:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 195 times.
+
+[23:19:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:20:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 200 times.
+
+[23:20:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 200 times.
+
+[23:20:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:20:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 205 times.
+
+[23:20:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 205 times.
+
+[23:21:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:21:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 210 times.
+
+[23:21:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 210 times.
+
+[23:22:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:22:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 215 times.
+
+[23:22:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 215 times.
+
+[23:22:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:23:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 220 times.
+
+[23:23:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 220 times.
+
+[23:23:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:24:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 225 times.
+
+[23:24:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 225 times.
+
+[23:24:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:25:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:25:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 230 times.
+
+[23:25:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 230 times.
+
+[23:25:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:25:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 235 times.
+
+[23:25:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 235 times.
+
+[23:26:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:26:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 240 times.
+
+[23:26:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 240 times.
+
+[23:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:27:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 245 times.
+
+[23:27:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 245 times.
+
+[23:28:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:28:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 250 times.
+
+[23:28:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 250 times.
+
+[23:28:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:29:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 255 times.
+
+[23:29:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 255 times.
+
+[23:29:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:30:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 260 times.
+
+[23:30:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 260 times.
+
+[23:30:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:30:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 265 times.
+
+[23:30:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 265 times.
+
+[23:31:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:31:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 270 times.
+
+[23:31:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 270 times.
+
+[23:31:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:32:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:32:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 275 times.
+
+[23:32:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 275 times.
+
+[23:33:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:33:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 280 times.
+
+[23:33:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 280 times.
+
+[23:34:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:34:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 285 times.
+
+[23:34:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 285 times.
+
+[23:34:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:35:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 290 times.
+
+[23:35:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 290 times.
+
+[23:35:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:35:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 295 times.
+
+[23:35:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 295 times.
+
+[23:36:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:36:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 300 times.
+
+[23:36:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 300 times.
+
+[23:37:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:37:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 305 times.
+
+[23:37:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 305 times.
+
+[23:37:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:38:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 310 times.
+
+[23:38:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 310 times.
+
+[23:38:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:39:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 315 times.
+
+[23:39:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 315 times.
+
+[23:39:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:40:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:40:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 320 times.
+
+[23:40:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 320 times.
+
+[23:40:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:40:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 325 times.
+
+[23:40:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 325 times.
+
+[23:41:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:41:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 330 times.
+
+[23:41:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 330 times.
+
+[23:42:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:42:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 335 times.
+
+[23:42:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 335 times.
+
+[23:43:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:43:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 340 times.
+
+[23:43:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 340 times.
+
+[23:43:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:44:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 345 times.
+
+[23:44:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 345 times.
+
+[23:44:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:45:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 350 times.
+
+[23:45:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 350 times.
+
+[23:45:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:45:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 355 times.
+
+[23:45:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 355 times.
+
+[23:46:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:46:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 360 times.
+
+[23:46:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 360 times.
+
+[23:46:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:47:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:47:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 365 times.
+
+[23:47:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 365 times.
+
+[23:48:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:48:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 370 times.
+
+[23:48:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 370 times.
+
+[23:49:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:49:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 375 times.
+
+[23:49:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 375 times.
+
+[23:49:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:50:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 380 times.
+
+[23:50:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 380 times.
+
+[23:50:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:50:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 385 times.
+
+[23:50:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 385 times.
+
+[23:51:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:51:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 390 times.
+
+[23:51:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 390 times.
+
+[23:52:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:52:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 395 times.
+
+[23:52:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 395 times.
+
+[23:52:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:53:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 400 times.
+
+[23:53:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 400 times.
+
+[23:53:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:54:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 405 times.
+
+[23:54:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 405 times.
+
+[23:54:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:55:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:55:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 410 times.
+
+[23:55:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 410 times.
+
+[23:55:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:55:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 415 times.
+
+[23:55:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 415 times.
+
+[23:56:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:56:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 420 times.
+
+[23:56:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 420 times.
+
+[23:57:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:57:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 425 times.
+
+[23:57:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 425 times.
+
+[23:58:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:58:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 430 times.
+
+[23:58:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 430 times.
+
+[23:58:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:59:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 435 times.
+
+[23:59:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 435 times.
+
+[23:59:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:00:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 440 times.
+
+[00:00:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 440 times.
+
+[00:00:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:00:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 445 times.
+
+[00:00:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 445 times.
+
+[00:01:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:01:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 450 times.
+
+[00:01:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 450 times.
+
+[00:01:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:02:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:02:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 455 times.
+
+[00:02:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 455 times.
+
+[00:03:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:03:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 460 times.
+
+[00:03:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 460 times.
+
+[00:04:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:04:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 465 times.
+
+[00:04:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 465 times.
+
+[00:04:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:05:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 470 times.
+
+[00:05:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 470 times.
+
+[00:05:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:05:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 475 times.
+
+[00:05:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 475 times.
+
+[00:06:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:06:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 480 times.
+
+[00:06:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 480 times.
+
+[00:07:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:07:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 485 times.
+
+[00:07:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 485 times.
+
+[00:07:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:08:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 490 times.
+
+[00:08:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 490 times.
+
+[00:08:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:09:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 495 times.
+
+[00:09:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 495 times.
+
+[00:09:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:10:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:10:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 500 times.
+
+[00:10:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 500 times.
+
+[00:10:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:10:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 505 times.
+
+[00:10:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 505 times.
+
+[00:11:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:11:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 510 times.
+
+[00:11:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 510 times.
+
+[00:12:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:12:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 515 times.
+
+[00:12:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 515 times.
+
+[00:13:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:13:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 520 times.
+
+[00:13:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 520 times.
+
+[00:13:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:14:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 525 times.
+
+[00:14:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 525 times.
+
+[00:14:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:15:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 530 times.
+
+[00:15:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 530 times.
+
+[00:15:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:15:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 535 times.
+
+[00:15:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 535 times.
+
+[00:16:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:16:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 540 times.
+
+[00:16:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 540 times.
+
+[00:16:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:17:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:17:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 545 times.
+
+[00:17:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 545 times.
+
+[00:18:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:18:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 550 times.
+
+[00:18:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 550 times.
+
+[00:19:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:19:18] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 555 times.
+
+[00:19:18] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 555 times.
+
+[00:19:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:20:08] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 560 times.
+
+[00:20:08] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 560 times.
+
+[00:20:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:20:58] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 565 times.
+
+[00:20:58] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 565 times.
+
+[00:21:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:21:48] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 570 times.
+
+[00:21:48] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 570 times.
+
+[00:22:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:22:38] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 575 times.
+
+[00:22:38] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 575 times.
+
+[00:22:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:23:28] [Server thread/DEBUG] [FML]: The world 5fd08441 (world) may have leaked: seen 580 times.
+
+[00:23:28] [Server thread/DEBUG] [FML]: The world 7fc01d08 (world) may have leaked: seen 580 times.
+
+[00:23:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:24:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:25:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:25:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:26:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:28:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:28:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:29:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:30:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:31:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:31:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:32:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:33:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:34:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:34:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:35:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:36:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:37:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:37:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:38:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:39:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:40:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:40:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:41:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:42:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:43:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:43:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:44:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:45:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:46:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:46:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:47:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:48:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:49:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:49:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:50:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:51:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:52:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:52:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:53:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:54:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:55:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:55:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:56:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:57:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:58:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:58:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:59:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:00:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:01:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:01:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:02:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:03:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:04:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:04:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:05:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:06:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:07:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:07:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:08:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:09:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:10:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:10:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:11:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:12:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:13:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:13:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:14:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:15:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:16:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:16:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:17:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:18:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:19:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:19:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:20:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:21:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:22:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:22:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:23:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:24:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:25:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:25:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:26:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:28:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:28:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:29:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:30:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:31:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:31:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:32:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:33:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:34:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:34:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:35:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:36:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:37:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:37:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:38:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:39:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:40:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:40:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:41:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:42:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:43:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:43:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:44:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:45:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:46:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:46:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:47:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:48:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:49:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:49:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:50:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.001s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.001s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.002s
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[01:50:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:50:38] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[01:50:38] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[01:50:38] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[01:50:38] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

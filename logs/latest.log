@@ -1,0 +1,8 @@
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[01:50:38] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:50:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
