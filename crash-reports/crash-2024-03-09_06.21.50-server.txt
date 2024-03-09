@@ -1,0 +1,368 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FutureMC (future-mc-0.2.15.jar)
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  PregenHooks (Chunk-Pregenerator-1.12-4.4.2.jar)
+  GITDLoadingPlugin (getittogetherdrops-1.12.2-v1.0.2.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.5.3.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+Contact their authors BEFORE contacting forge
+
+// I let you down. Sorry :(
+
+Time: 3/9/24 6:21 AM
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at java.util.IdentityHashMap.containsKey(IdentityHashMap.java:363)
+	at java.util.Collections$SetFromMap.contains(Collections.java:5513)
+	at net.minecraft.util.ClassInheritanceMultiMap.func_181157_b(ClassInheritanceMultiMap.java:54)
+	at net.minecraft.util.ClassInheritanceMultiMap$1.iterator(ClassInheritanceMultiMap.java:126)
+	at net.minecraft.world.chunk.Chunk.func_177430_a(Chunk.java:934)
+	at net.minecraft.world.World.func_175647_a(World.java:3085)
+	at com.dhanantry.scapeandrunparasites.entity.ai.EntityAINearestAttackableTargetStatus.func_75250_a(EntityAINearestAttackableTargetStatus.java:83)
+	at net.minecraft.entity.ai.EntityAITasks.func_75774_a(SourceFile:94)
+	at net.minecraft.entity.EntityLiving.func_70626_be(EntityLiving.java:760)
+	at net.minecraft.entity.EntityLivingBase.func_70636_d(EntityLivingBase.java:2359)
+	at net.minecraft.entity.EntityLiving.func_70636_d(EntityLiving.java:577)
+	at net.minecraft.entity.monster.EntityMob.func_70636_d(EntityMob.java:45)
+	at com.dhanantry.scapeandrunparasites.entity.ai.misc.EntityParasiteBase.func_70636_d(EntityParasiteBase.java:359)
+	at com.dhanantry.scapeandrunparasites.entity.ai.misc.EntityPInfected.func_70636_d(EntityPInfected.java:106)
+	at com.dhanantry.scapeandrunparasites.entity.monster.infected.EntityInfHuman.func_70636_d(EntityInfHuman.java:106)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:295)
+	at net.minecraft.entity.monster.EntityMob.func_70071_h_(EntityMob.java:50)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.util.IdentityHashMap.containsKey(IdentityHashMap.java:363)
+	at java.util.Collections$SetFromMap.contains(Collections.java:5513)
+	at net.minecraft.util.ClassInheritanceMultiMap.func_181157_b(ClassInheritanceMultiMap.java:54)
+	at net.minecraft.util.ClassInheritanceMultiMap$1.iterator(ClassInheritanceMultiMap.java:126)
+	at net.minecraft.world.chunk.Chunk.func_177430_a(Chunk.java:934)
+	at net.minecraft.world.World.func_175647_a(World.java:3085)
+	at com.dhanantry.scapeandrunparasites.entity.ai.EntityAINearestAttackableTargetStatus.func_75250_a(EntityAINearestAttackableTargetStatus.java:83)
+	at net.minecraft.entity.ai.EntityAITasks.func_75774_a(SourceFile:94)
+	at net.minecraft.entity.EntityLiving.func_70626_be(EntityLiving.java:760)
+	at net.minecraft.entity.EntityLivingBase.func_70636_d(EntityLivingBase.java:2359)
+	at net.minecraft.entity.EntityLiving.func_70636_d(EntityLiving.java:577)
+	at net.minecraft.entity.monster.EntityMob.func_70636_d(EntityMob.java:45)
+	at com.dhanantry.scapeandrunparasites.entity.ai.misc.EntityParasiteBase.func_70636_d(EntityParasiteBase.java:359)
+	at com.dhanantry.scapeandrunparasites.entity.ai.misc.EntityPInfected.func_70636_d(EntityPInfected.java:106)
+	at com.dhanantry.scapeandrunparasites.entity.monster.infected.EntityInfHuman.func_70636_d(EntityInfHuman.java:106)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:295)
+	at net.minecraft.entity.monster.EntityMob.func_70071_h_(EntityMob.java:50)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+
+-- Thread Dump --
+Details:
+	Threads: "Chunk I/O Executor Thread-1" Id=62 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67052c0a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@67052c0a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"File IO Thread" Id=54 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:44)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"VoiceChatServerThread" Id=52 RUNNABLE (in native)
+	at java.net.PlainDatagramSocketImpl.peekData(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@69c2de9a
+	at java.net.DatagramSocket.receive(DatagramSocket.java:743)
+	-  locked java.net.DatagramPacket@6dfd477a
+	-  locked java.net.DatagramSocket@28ffd4a1
+	at de.maxhenkel.voicechat.plugins.impl.VoicechatSocketBase.read(VoicechatSocketBase.java:13)
+	at de.maxhenkel.voicechat.plugins.impl.VoicechatSocketImpl.read(VoicechatSocketImpl.java:74)
+	at de.maxhenkel.voicechat.voice.server.Server.run(Server.java:88)
+
+
+"VoiceChatPacketProcessingThread" Id=53 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66d4d8c8
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66d4d8c8
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at de.maxhenkel.voicechat.voice.server.Server$ProcessThread.run(Server.java:210)
+
+
+"Server Watchdog" Id=51 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:45)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"threadDeathWatcher-2-1" Id=50 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #1" Id=49 RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@191dfc86
+	-  locked java.util.Collections$UnmodifiableSet@1edcae48
+	-  locked sun.nio.ch.EPollSelectorImpl@48d02bee
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"World Simulation Thread" Id=48 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at CoroUtil.world.WorldDirector.run(WorldDirector.java:430)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"ConfigSaver" Id=44 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@882a8a4
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@882a8a4
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #0" Id=40 RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@7e8d9cfe
+	-  locked java.util.Collections$UnmodifiableSet@5d8c389
+	-  locked sun.nio.ch.EPollSelectorImpl@4c9e1787
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"Thread-3" Id=25 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"JLine terminal non blocking reader thread" Id=23 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at org.jline.utils.InputStreamReader.read(InputStreamReader.java:270)
+	-  locked java.io.FileInputStream@51444138
+	at org.jline.utils.InputStreamReader.read(InputStreamReader.java:200)
+	-  locked java.io.FileInputStream@51444138
+	at org.jline.utils.NonBlockingReader.run(NonBlockingReader.java:276)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Server console handler" Id=22 TIMED_WAITING on org.jline.utils.NonBlockingReader@43bc5d82
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.jline.utils.NonBlockingReader@43bc5d82
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:174)
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:113)
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:132)
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:109)
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:60)
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:724)
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:526)
+	...
+
+
+"DestroyJavaVM" Id=21 RUNNABLE
+
+
+"Server thread" Id=19 RUNNABLE
+	at java.util.IdentityHashMap.containsKey(IdentityHashMap.java:363)
+	at java.util.Collections$SetFromMap.contains(Collections.java:5513)
+	at net.minecraft.util.ClassInheritanceMultiMap.func_181157_b(ClassInheritanceMultiMap.java:54)
+	at net.minecraft.util.ClassInheritanceMultiMap$1.iterator(ClassInheritanceMultiMap.java:126)
+	at net.minecraft.world.chunk.Chunk.func_177430_a(Chunk.java:934)
+	at net.minecraft.world.World.func_175647_a(World.java:3085)
+	at com.dhanantry.scapeandrunparasites.entity.ai.EntityAINearestAttackableTargetStatus.func_75250_a(EntityAINearestAttackableTargetStatus.java:83)
+	at net.minecraft.entity.ai.EntityAITasks.func_75774_a(SourceFile:94)
+	...
+
+
+"Server Infinisleeper" Id=18 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:82)
+
+
+"Snooper Timer" Id=17 TIMED_WAITING on java.util.TaskQueue@bb1af7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@bb1af7
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=5 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@3ca50748
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3ca50748
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:188)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@4f1bdc65
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@4f1bdc65
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:62)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (aarch64) version 5.15.0-202.135.2.el8uek.aarch64
+	Java Version: 1.8.0_402, Red Hat, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Red Hat, Inc.
+	Memory: 3226956400 bytes (3077 MB) / 6442450944 bytes (6144 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 9 total; -XX:+UseG1GC -Xmx6G -Xms6G -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32
+	IntCache: cache: 0, tcache: 8, allocated: 20, tallocated: 86
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 58 mods loaded, 58 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                 | Version                  | Source                                                | Signature                                |
+	|:------ |:------------------ |:------------------------ |:----------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft          | 1.12.2                   | minecraft.jar                                         | None                                     |
+	| LCHIJA | mcp                | 9.42                     | minecraft.jar                                         | None                                     |
+	| LCHIJA | FML                | 8.0.99.99                | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge              | 14.23.5.2860             | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | creativecoredummy  | 1.0.0                    | minecraft.jar                                         | None                                     |
+	| LCHIJA | ivtoolkit          | 1.3.3-1.12               | minecraft.jar                                         | None                                     |
+	| LCHIJA | otgcore            | 1.12.2-v9.4              | minecraft.jar                                         | None                                     |
+	| LCHIJA | movillages         | 1.5.4                    | [1.12]MoVillages-1.5.4.jar                            | None                                     |
+	| LCHIJA | aiimprovements     | 0.0.1.3                  | AIImprovements-1.12-0.0.1b3.jar                       | None                                     |
+	| LCHIJA | antiqueatlas       | 4.6.3                    | antiqueatlas-1.12.2-4.6.3.jar                         | None                                     |
+	| LCHIJA | atlaslib           | 1.1.5a                   | Atlas-Lib-1.12.2-1.1.5a.jar                           | None                                     |
+	| LCHIJA | badmobs            | 1.1.40                   | BadMobs-1.12.2-1.1.40.jar                             | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | biomesoplenty      | 7.0.1.2445               | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar         | None                                     |
+	| LCHIJA | chunkpregenerator  | 4.4.0                    | Chunk-Pregenerator-1.12-4.4.2.jar                     | None                                     |
+	| LCHIJA | collective         | 3.0                      | collective-1.12.2-3.0.jar                             | None                                     |
+	| LCHIJA | extendedrenderer   | v1.0                     | coroutil-1.12.1-1.2.37.jar                            | None                                     |
+	| LCHIJA | coroutil           | 1.12.1-1.2.37            | coroutil-1.12.1-1.2.37.jar                            | None                                     |
+	| LCHIJA | configmod          | v1.0                     | coroutil-1.12.1-1.2.37.jar                            | None                                     |
+	| LCHIJA | creativecore       | 1.10.0                   | CreativeCore_v1.10.71_mc1.12.2.jar                    | None                                     |
+	| LCHIJA | orelib             | 3.6.0.1                  | OreLib-1.12.2-3.6.0.1.jar                             | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJA | dsurround          | 3.6.1.0                  | DynamicSurroundings-1.12.2-3.6.1.0.jar                | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJA | reccomplex         | 1.4.8.5                  | RecurrentComplex-1.4.8.5.jar                          | None                                     |
+	| LCHIJA | dynamictrees       | 1.12.2-0.9.29            | DynamicTrees-1.12.2-0.9.29.jar                        | None                                     |
+	| LCHIJA | dynamictreesbop    | 1.12.2-9999.9999.9999z   | DynamicTreesBOP-1.12.2-1.5.2.jar                      | None                                     |
+	| LCHIJA | enhancedvisuals    | 1.3.0                    | EnhancedVisuals_v1.4.4_mc1.12.2.jar                   | None                                     |
+	| LCHIJA | familiarfauna      | 1.0.11                   | FamiliarFauna-1.12.2-1.0.11.jar                       | None                                     |
+	| LCHIJA | fastleafdecay      | v14                      | FastLeafDecay-v14.jar                                 | None                                     |
+	| LCHIJA | forgelin           | 1.8.4                    | Forgelin-1.8.4.jar                                    | None                                     |
+	| LCHIJA | futuremc           | 0.2.6                    | future-mc-0.2.15.jar                                  | None                                     |
+	| LCHIJA | getittogetherdrops | 1.0.2                    | getittogetherdrops-1.12.2-v1.0.2.jar                  | None                                     |
+	| LCHIJA | gwdeepslate        | 1.0                      | Glymworld-Deepslate-v1.1.0.jar                        | None                                     |
+	| LCHIJA | gottschcore        | 1.15.1                   | GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar        | None                                     |
+	| LCHIJA | hardcorerevival    | 1.2.0                    | HardcoreRevival_1.12.2-1.2.0.jar                      | None                                     |
+	| LCHIJA | hbm                | hbm-1.8.4a-G             | hbm-1.8.4a-G.jar                                      | None                                     |
+	| LCHIJA | ichunutil          | 7.2.2                    | iChunUtil-1.12.2-7.2.2.jar                            | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | inventorysorter    | 1.13.3+57                | inventorysorter-1.12.2-1.13.3+57.jar                  | None                                     |
+	| LCHIJA | inventorytweaks    | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                              | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCHIJA | hordes             | 1.1.7                    | The-Hordes-1.12.2-1.1.7.jar                           | None                                     |
+	| LCHIJA | jei                | 4.16.1.301               | jei_1.12.2-4.16.1.301.jar                             | None                                     |
+	| LCHIJA | mcwfences          | 1.0.0                    | mcw-fences-1.0.0-mc1.12.2.jar                         | None                                     |
+	| LCHIJA | testdummy          | 1.12                     | MmmMmmMmmMmm-1.12-1.14.jar                            | None                                     |
+	| LCHIJA | mobsunscreen       | @version@                | mobsunscreen-1.12.2-3.1.5.jar                         | None                                     |
+	| LCHIJA | naturescompass     | 1.8.5                    | NaturesCompass-1.12.2-1.8.5.jar                       | None                                     |
+	| LCHIJA | nocubessrparmory   | 3.0.0                    | NoCubes_SRP_Combat_Addon_3.0.0.jar                    | None                                     |
+	| LCHIJA | nocubessrpnests    | 3.0.0                    | NoCubes_SRP_Nests_Addon_3.0.0.jar                     | None                                     |
+	| LCHIJA | nocubessrpsurvival | 3.0.0                    | NoCubes_SRP_Survival_Addon_3.0.0.jar                  | None                                     |
+	| LCHIJA | spartanshields     | 1.5.5                    | SpartanShields-1.12.2-1.5.5.jar                       | None                                     |
+	| LCHIJA | spartanweaponry    | 1.5.3                    | SpartanWeaponry-1.12.2-1.5.3.jar                      | None                                     |
+	| LCHIJA | srparasites        | 1.9.18                   | SRParasites-1.12.2v1.9.18.jar                         | None                                     |
+	| LCHIJA | tabula             | 7.1.0                    | Tabula-1.12.2-7.1.0.jar                               | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | voicechat          | 1.12.2-2.4.32            | voicechat-forge-1.12.2-2.4.32.jar                     | None                                     |
+	| LCHIJA | drplibrary         | 1.12.2-0.1.3-SNAPSHOT    | drplibrary-1.12.2-0.1.3-SNAPSHOT-20190129.084240.jar  | None                                     |
+	| LCHIJA | drpcmblueprints    | 1.12.2-1.2.3             | drpcmblueprints-1.12.2-1.2.3.jar                      | None                                     |
+	| LCHIJA | drpcmmaarg         | 1.12.2-0.10.0-SNAPSHOT   | drpcmmaarg-1.12.2-0.10.0-SNAPSHOT-20181116.124036.jar | None                                     |
+	| LCHIJA | drpcmguis          | 1.12.2-0.0.2-SNAPSHOT    | drpcmguis-1.12.2-0.0.1-SNAPSHOT-20181125.120253.jar   | None                                     |
+	| LCHIJA | drpcore            | 1.12.2-0.4.7             | drpcore-1.12.2-0.4.8.jar                              | 893c317856cf6819b3a8381c5664e4b06df7d1cc |
+	| LCHIJA | drpcmlocks         | 1.12.2-1.0.1             | drpcmlocks-1.12.2-1.0.0-SNAPSHOT-20181126.111203.jar  | None                                     |
+	| LCHIJA | drpmedieval        | 1.12.2-0.3.6             | drpmedieval-1.12.2-0.3.6.jar                          | None                                     |
+
+	Loaded coremods (and transformers): 
+FutureMC (future-mc-0.2.15.jar)
+  thedarkcolour.futuremc.asm.CoreTransformer
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+PregenHooks (Chunk-Pregenerator-1.12-4.4.2.jar)
+  pregenerator.config.impl.internal.CarbonConfigHooks
+GITDLoadingPlugin (getittogetherdrops-1.12.2-v1.0.2.jar)
+  
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.5.3.jar)
+  
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 3 / 20; [EntityPlayerMP['MrZamboni'/3566739, l='world', x=-778.49, y=64.54, z=758.51], EntityPlayerMP['7axel7'/312, l='world', x=-884.04, y=63.00, z=827.33], EntityPlayerMP['Ymengi'/4876794, l='world', x=-883.41, y=63.00, z=816.12]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
