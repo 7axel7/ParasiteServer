@@ -1,43 +1,43 @@
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.api.materials.Material:214] Tue Mar 12 05:06:52 GMT 2024
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: oak
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.api.materials.Material:214] Tue Mar 12 14:55:13 EDT 2024
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: oak
 |- Type: wood
 |- Items: 3
 |   |- 1xtile.leaves@0
 |   |- 1xtile.log@0
 |   |- 1xtile.wood@0
 
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: dark_oak
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: dark_oak
 |- Type: wood
 |- Items: 3
 |   |- 1xtile.leaves@1
 |   |- 1xtile.log@1
 |   |- 1xtile.wood@5
 
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: birch
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: acacia
 |- Type: wood
 |- Items: 3
-|   |- 1xtile.leaves@2
-|   |- 1xtile.log@2
-|   |- 1xtile.wood@2
+|   |- 1xtile.leaves@0
+|   |- 1xtile.log@0
+|   |- 1xtile.wood@4
 
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: spruce
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: spruce
 |- Type: wood
 |- Items: 3
 |   |- 1xtile.leaves@1
 |   |- 1xtile.log@1
 |   |- 1xtile.wood@1
 
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: jungle
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: jungle
 |- Type: wood
 |- Items: 3
 |   |- 1xtile.leaves@3
 |   |- 1xtile.log@3
 |   |- 1xtile.wood@3
 
-[05:06:52][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: acacia
+[14:55:13][INFO][net.dark_roleplay.core_modules.maarg.DRPCMMaARG:71] Material: birch
 |- Type: wood
 |- Items: 3
-|   |- 1xtile.leaves@0
-|   |- 1xtile.log@0
-|   |- 1xtile.wood@4
+|   |- 1xtile.leaves@2
+|   |- 1xtile.log@2
+|   |- 1xtile.wood@2
 
